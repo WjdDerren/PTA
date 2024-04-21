@@ -41,6 +41,5 @@ int main() {
     for(i = len_res - 1; i >= 0; i--) {
         printf("%c", res[i]);
     }
-    123123
     return 0;
 }

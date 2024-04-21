@@ -1,21 +1,18 @@
 #include <stdio.h>
 #include <math.h>
 
+void change(int *pa, int *pb) {
+    int temp = *pa;
+    *pa = *pb;
+    *pb = temp;
+}
 
 int main()
 {
-    char s[] = "china", *ps = s;
-    printf("s[5] = %c\n", s[4]);
-    printf("s[6] = %c\n", s[5]);
-
-    printf("ps[0] = %c\n", ps[0]);
-    printf("ps[0] + 3 = %c\n", *ps + 3);
-    printf("ps[3] = %c\n", *(ps + 3));
-    printf("ps = %s\n", ps);
-
-    int a[] = {5,4,3,2,1}, *pa = a;
-    printf("pa[0] = %d\n", *pa);
-    printf("pa[0] + 3 = %d\n", *pa + 3);
-    printf("pa[3] = %d\n", *(pa + 3));
+    int a = 2, b = 3;
+    int *pa = &a, *pb = &b;
+    printf("Before a = %d, b = %d\n", a, b);
+    change(pa, pb);
+    printf("After a = %d, b = %d\n", a, b);
     return 0;
 }
