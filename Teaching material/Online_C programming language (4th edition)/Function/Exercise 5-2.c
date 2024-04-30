@@ -1,5 +1,6 @@
-#include <stdio.h>
+// 习题5-2 使用函数求奇数和
 
+#include <stdio.h>
 #define MAXN 10
 
 int even( int n );

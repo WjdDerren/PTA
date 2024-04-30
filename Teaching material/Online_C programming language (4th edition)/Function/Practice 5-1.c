@@ -1,3 +1,5 @@
+// 练习5-1 求m到n之和
+
 #include <stdio.h>
 
 int sum(int m, int n);

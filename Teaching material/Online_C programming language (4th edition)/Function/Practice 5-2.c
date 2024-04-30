@@ -1,3 +1,5 @@
+// 练习5-2 找两个数中最大者
+
 #include <stdio.h>
 
 int max( int a, int b );

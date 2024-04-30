@@ -1,3 +1,5 @@
+// 习题5-1 符号函数
+
 #include <stdio.h>
 
 int sign( int x );

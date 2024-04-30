@@ -1,3 +1,5 @@
+// 练习5-3 字符金字塔
+
 #include <stdio.h>
 
 void CharPyramid( int n, char ch );
